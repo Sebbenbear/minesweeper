@@ -1,18 +1,10 @@
 package minesweeper;
 
-import minesweeper.model.Game;
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        // int x = 10;
-        // String[] ttt = new String[]{"a", "b"};
+import minesweeper.controller.GameController;
 
-        System.out.println( "Hello World!" );
-        Game game = new Game();
+public class App {
+    public static void main( String[] args ) {
+        System.out.println( "Starting game..." );
+        new GameController().mainLoop();
     }
 }
