@@ -35,4 +35,13 @@ class Cell {
     void setHasFlag(boolean hasFlag) {
         this.hasFlag = hasFlag;
     }
+
+    boolean hasMine() {
+        return hasMine;
+    }
+
+    int getMineCount() {
+        return mineCount;
+    }
+
 }
